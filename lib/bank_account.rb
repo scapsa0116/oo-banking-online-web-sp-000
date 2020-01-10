@@ -19,16 +19,10 @@ def display_balance
   end
   
   
-  def status=(status)
-    @status
-  end
-
-  def balance=(balance)
-    @balance
-  end
-
   def valid?
-    (!!status == "open") && (!!balance > 0)
+    self.balance > 0 && self.status == "open" ? true : false
   end
 
+  def close_account
+    self.status = "closed"
 end
