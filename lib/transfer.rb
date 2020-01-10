@@ -1,3 +1,8 @@
 class Transfer
-  # your code here
-end
+  attr_accessor :transfer, :sender, :receiver, :status, :transfer
+  
+  
+  
+  
+  
+end 
