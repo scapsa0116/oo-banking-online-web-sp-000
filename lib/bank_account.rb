@@ -15,7 +15,7 @@ def deposit(money_deposited)
 end
 
 def display_balance
-    p "Your balance is $#{self.balance}."
+     "Your balance is $#{self.balance}."
   end
   
   
